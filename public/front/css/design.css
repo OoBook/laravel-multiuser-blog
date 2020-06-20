@@ -1,0 +1,23 @@
+.menu{
+    padding: .25rem;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.menu .accordion-heading {  position: relative; }
+.menu .accordion-heading .edit {
+    position: absolute;
+    top: 8px;
+    right: 30px;
+}
+.menu .area {
+    border-left: 4px solid #f38787;
+    margin: 0.2rem;
+
+ }
+.menu .equipamento { border-left: 4px solid #65c465; }
+.menu .ponto { border-left: 4px solid #98b3fa; }
+.menu .collapse.in { overflow: visible; }
+
+.menu .accordion-heading a {
+    margin: 0.4rem;
+}
